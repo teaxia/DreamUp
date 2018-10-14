@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<i-notice-bar icon="systemprompt" loop closable speed='1500'>
+    <view>造梦空间内测中，所有用户均需要填写邀请码才可注册</view>
+</i-notice-bar>
+<view class="container-fild">
+  <v-select></v-select>
+</view>
+<swiper indicator-color="rgba(255,255,255,.8)" indicator-active-color="#999" indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+<!--中间内容部分-->
+<view class="container">
+  <view class='panel'>
+  </view>
+</view>

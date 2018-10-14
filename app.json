@@ -1,0 +1,32 @@
+{
+  "debug": true,
+  "pages":[
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "造梦空间",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": { 
+    "color": "#ddd",
+    "selectedColor": "red",
+    "borderStyle": "black",
+    "backgroundColor":"#fff",
+  "list": [
+    {
+      "selectedIconPath": "assets/images/index-s.png",
+      "iconPath": "assets/images/index.png",
+      "pagePath": "pages/index/index",
+      "text": "梦境云游"
+    },
+    {
+      "selectedIconPath": "assets/images/mine-s.png",
+      "iconPath": "assets/images/mine.png",
+      "pagePath": "pages/index/index",
+      "text": "我的"
+    }
+  ]
+}
+}
