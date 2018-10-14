@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <i-notice-bar icon="systemprompt" loop closable speed='1500'>
-    <view>造梦空间内测中，所有用户均需要填写邀请码才可注册</view>
+    <view>造梦空间内测中，所有用户均需要填写邀请码才可注册1</view>
 </i-notice-bar>
 <view class="container-fild">
   <v-select></v-select>
