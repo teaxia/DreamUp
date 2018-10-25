@@ -4,8 +4,8 @@
   width: 100%;
 }
 .container{
-  width:100%;
-  padding:0 20rpx;
+  width:calc(100%-40rpx);
+  padding: 0 20rpx;
 }
 /* border */
 .line-t{
